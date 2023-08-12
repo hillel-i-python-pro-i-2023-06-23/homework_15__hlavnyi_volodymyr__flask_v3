@@ -1,14 +1,11 @@
 FROM python:3.11
 
 ENV PYTHONUNBUFFERED=1
+ENV AM_I_IN_A_DOCKER_CONTAINER True
 
-ARG WORKDIR=/wd
 ARG USER=user
 
-WORKDIR ${WORKDIR}
-
-RUN useradd --system ${USER} && \
-    chown --recursive ${USER} ${WORKDIR}
+RUN useradd --system ${USER}
 
 RUN apt update && apt upgrade -y
 
