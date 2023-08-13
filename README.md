@@ -1,7 +1,7 @@
-# Flask application
+# HW 15. Flask. Routes & Ports.
 
 ---
-![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/shared__flask__example_2023_06_23/actions/workflows/main-workflow.yml/badge.svg)
+![Main workflow](https://github.com/hillel-i-python-pro-i-2023-06-23/homework_15__hlavnyi_volodymyr__flask_v3/actions/workflows/main-workflow.yml/badge.svg)
 
 ## 🏠 Homework
 
