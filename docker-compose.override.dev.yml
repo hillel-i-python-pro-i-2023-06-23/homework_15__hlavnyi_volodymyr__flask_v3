@@ -9,4 +9,4 @@ services:
     environment:
       - FLASK_APP=app.py
       - FLASK_DEBUG=0
-    command: --host=0.0.0.0 --port=45000
+    command: --host=app --port=45000
